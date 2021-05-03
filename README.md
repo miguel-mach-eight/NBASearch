@@ -35,9 +35,8 @@ No matches found, please try with a new number
 
 ### Algorithm
 
-The program works with a nested for loop that sums all posible combinations of two 
-NBA players' height. Following these cycles, the program searches for all matches. Two If statements give the final output,
-either finding a definite amount of pairs or declaring a lack of them, prompting to try again with a different number.
+The program works with a Divide and conquer Algorithm searching for all posible combinations of two 
+NBA players' height. This algorithm is an improved version of the initial code, which followed a naive implementation.
 
 ## Authors
 
