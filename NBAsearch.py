@@ -7,7 +7,9 @@ Created on Mon Apr  5 16:30:22 2021
 
 import json
 import requests
+
 import collections
+
 
         
 
@@ -16,6 +18,7 @@ def search(Number):
 
     data = json.loads(response.text)
     PLAYERS = data["values"]
+
 
     d = collections.defaultdict(list)
     for player in players:
@@ -28,6 +31,7 @@ def search(Number):
                     for player in d[height]
                         if player < other
     ]
+
 
 def executer():
     Number = int(input("insert your integer: "))
